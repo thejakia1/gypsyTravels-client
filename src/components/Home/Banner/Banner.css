@@ -1,0 +1,31 @@
+/* .banner-img{
+    height: 700px;
+    width: 100%;
+    -webkit-filter: blur(3px);
+} */
+.bg-img{
+    background-image: url(http://cdn.cnn.com/cnnnext/dam/assets/200106133144-underscored-inclusive-resorts-lily-beach-resort-maldives-full-169.jpg);
+    /* opacity: 0.5; */
+    background-attachment:fixed;
+    padding: 290px 1px;
+    background-size: cover;
+}
+.banner-title{
+    background-color: aliceblue;
+    opacity: 0.8;
+    font-size: 3em;
+    color: rgb(19, 2, 2);
+    text-shadow: 10px;
+}
+.banner-info{
+    color: white;
+    font-weight: 700;
+    opacity: 0.9;
+    text-shadow: 50px;
+}
+.header-description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
